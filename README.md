@@ -1,13 +1,9 @@
-In this project, we'll delve into a comprehensive analysis of the Netflix dataset, which includes TV shows and movies available on Netflix up to 2021. This dataset, sourced from Flixable and available on Kaggle, will be explored using various functions and commands to uncover valuable insights.
+This dashboard provides a comprehensive overview of the pizza sales performance. It aims to analyze various aspects of the business, including sales revenue, average order value, total pizzas sold, and customer behavior.
 
-We'll start by importing the dataset into a Jupyter notebook using the Pandas library. The dataset, stored in CSV format, will be loaded into a DataFrame named 'data.' We will then use a variety of commands to examine and manipulate the data, including:
+Objectives: Assess overall sales performance: Evaluate the total revenue generated, average order value, and total pizzas sold.
 
-Data Inspection: Using functions such as head(), tail(), shape, and size to understand the dataset's structure and content.
+Identify peak sales periods: Determine the busiest days and times of the week, as well as the months with the highest number of orders.
 
-Data Cleaning: Employing dropna() and duplicated() to handle null values and duplicates.
+Analyze customer behavior: Understand customer preferences in terms of pizza categories, sizes, and order frequency.
 
-Data Exploration: Utilizing info(), value_counts(), unique(), and nunique() to gather insights about data distribution and uniqueness.
-
-Data Transformation: Creating new columns and DataFrames, and applying functions like str.contains(), str.split(), and to_datetime() for enhanced data analysis.
-
-Data Visualization: Generating bar graphs using Seaborn to visualize trends and distributions.# Netflix_Dataset_Analysis
+Identify top-selling products: Determine the most popular pizza categories and sizes to optimize inventory and marketing strategies.
